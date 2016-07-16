@@ -1,0 +1,17 @@
+var twitter = require('./keys.js');
+
+var tweets = twitter.twitterKeys;
+
+var spotify = require('spotify');
+ 
+
+
+
+spotify.search({ fs.readFile("random.txt", "utf8") }, function(err, data) {
+    if ( err ) {
+        console.log('Error occurred: ' + err);
+        return;
+    }
+ 
+    // Do something with 'data' 
+});
